@@ -9,7 +9,7 @@
 
 >com o dados de latitude e longitude providos pelo GPS do dispositivo, é disparado uma requisição **GET** para capturar os dados do clima do local e para retornar a Geolocalização reversa.
 
-## Documentação
+## Documentação :page_facing_up:
 
   * /src/services/reverseGeolocation.ts
     ```ts
@@ -33,11 +33,13 @@
     ```
     >O service acima retorna as informações sobre o clime no formato das unidades padrões do SI de forma similar à anterior a API_key fica localizada nas pasta de configuração /src/config
 
+## App keys :key:
 
-## Primeira Execução da aplicação
+As chaves foram deixadas livres sem segurança para fins de teste no arquivo /src/configs/env.ts
+
+## Primeira Execução da aplicação :video_camera:
 ![Aplicação](https://i.imgur.com/xQ8CmqP.gif)
-
-## Inicialização
+## Inicialização :octocat:
 
 [0] - **Clonando repositório**
 ```bash
@@ -54,7 +56,7 @@ git clone https://github.com/Remato/platform-builders.git
   yarn start
   ```
 
-[3] - **Inicializando no iOS**
+[2] - **Inicializando no iOS**
   ```bash
   sudo gem install cocoapods && cd ios/ && pod install && cd .. && yarn ios
   ```
@@ -64,7 +66,7 @@ git clone https://github.com/Remato/platform-builders.git
 ## Testes
 
 [x] - Executando testes
-```bash
+```
 yarn test
 ```
 >Como a aplicação tem apenas a tela de Home, existe apenas 1 teste que gerencia o component princial e seus subcomponents.
